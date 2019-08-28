@@ -7,17 +7,23 @@
 * {
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
+
 }
 
 body {
-    height: 1500px;
+    width: auto;
+    height: auto;
+    position: relative;
+    display: block;
+
 }
 
 
 /*Start of nav section*/
 .demo_nav .navbar-inverse {
-    background-color: #1a1a3b14;
-    border-color: #1a1a3b14;
+    background-color: #1a1a3b00;
+    border-color: #1a1a3b00;
 }
 
 .navbar-inverse .navbar-nav>.active>a,
@@ -28,6 +34,12 @@ body {
     background: none;
 }
 
+.navbar-collapse .collapse .in {
+     border-color: #0807079e;
+    background: #0807079e;
+    border: 0px !important;
+    margin-top: 20px;
+}
 
 /*End of nav section*/
 
@@ -37,7 +49,13 @@ body {
 
 .welcome {
     height: auto;
-    display: block
+    display: block;
+    overflow: hidden;
+}
+.welcome .container-fluid{
+    margin-right: 0px;
+    margin-left: 0px;
+
 }
 
 .wrap,
@@ -47,12 +65,14 @@ body {
 }
 
 .wrap {
+    width: auto;
+    height: auto;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(../images/background-image.jpg);
+    background-image: url(../images/background-image_1280x847.jpg);
     display: block;
-    overflow-x: hidden
+    overflow-x: hidden;
 }
 
 .wrap .overy-lay {
@@ -154,21 +174,27 @@ p {
 
 .about {
     margin-bottom: 40px;
+    position: relative;
 
 }
 
 .about img {
     min-height: 370px;
+   width: 500px;
+     display: block;
 }
 
 .service {
+    position: relative;
+    display: block;
     margin-bottom: 60px;
 }
 
 .service img {
     min-height: 370px;
     display: block;
-    max-width: 540px;
+    max-width: 440px;
+    margin-bottom: 20px;
 }
 
 .about h1 {
