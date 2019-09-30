@@ -179,8 +179,8 @@ p {
 }
 
 .about img {
-    min-height: 370px;
-   width: 500px;
+   /* min-height: 370px;*/
+ /*  width: 500px;*/
      display: block;
 }
 
@@ -190,10 +190,10 @@ p {
     margin-bottom: 60px;
 }
 
-.service img {
+.service img { 
+    max-width: 440px;
     min-height: 370px;
     display: block;
-    max-width: 440px;
     margin-bottom: 20px;
 }
 
@@ -322,8 +322,8 @@ p {
 }
 
 .contact_us .btn-danger:hover {
-    background-color: #434b79;
-    border-color: #8b96d4;
+   /* background-color: #434b79*/;
+    border-color: #52566d;
 }
 
 @media only screen and (max-width:500px) {
