@@ -1,5 +1,5 @@
 ## Project
- HTML5/CC3 and bootstrap demo website
+ HTML5/CSS3 and Bootstrap demo website
 ## Clone
 To clone this project use this command
 
