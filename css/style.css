@@ -31,6 +31,11 @@ body {
   background: none;
 }
 
+.navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #df6b0d;
+}
+
 .navbar-collapse .collapse .in {
   border-color: #0807079e;
   background: #0807079e;
