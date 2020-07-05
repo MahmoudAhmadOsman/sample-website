@@ -16,4 +16,4 @@ Visit this link: [sample-website](https://mahmoudahmadosman.github.io/sample-web
 
 ### My Website
  Please, visit my website
-[netsansoftwarec.com](https://www.netsansoftware.com/)
+[mahmoudosman.com](https://www.mahmoudosman.com)
